@@ -1,0 +1,34 @@
+print = prints a set of strings(words) for the user to see
+\n = new line (like enter) starts the next set of strings from a new line
+x.x = float number
+% = used to give to insert specific variables into a string also for module
+calculations
+%s = for string variables
+%d = for int number variables
+(can also be use for float variables but it wont print anything after dot)
+%f = for float number variables
+%r = for debuging purpose will print the string as its written by the programmer
+True/False = specific values used by programmers to define true or false
+\t = tab(like space but way bigger)
+\\ = \
+\r = takes a set of strings and moves it into the beginning of a line
+raw_input() = user written variables
+from sys import argv = from the library sys import the argument argv which
+in console the user is able to call upon 2 or more files
+""" """ = user is able to put as much string as he wants in multiple lines
+open() = open a file to work with
+close() = saves the changes to a file
+read() = read the contents of a file
+a = opens the file write from end of file(if text is already in it if not creates one)
+w = truncates a file(deletes all data) and writes something new
+r = one text file for reading
+w+ a+ = added feature to also read
+r+ = added feature to write, from the beginning
+truncate() = truncates a file
+write() = writes into file
+def = creates a function
+seek = operates over an open file
+    - 0: reference point is the beginning of the file
+    - 1: reference point is the current file position
+    - 2: reference point is the end of the file
+return = returns variable from a function

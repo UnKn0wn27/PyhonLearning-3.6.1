@@ -1,0 +1,22 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+<h1 align = "center"> {{ room.name }}  </h1>
+
+<pre align = "center">
+{{ room.description }}
+</pre>
+
+{% if room.name in ["death", "The End"] %}
+    <p align = "center"><a href="/">Play Again?</a></p>
+{% else %}
+    <p>
+    <form align = "center" action="/game" method="POST">
+        <input type="text" name="action"> <input type="SUBMIT">
+    </form>
+    </p>
+{% endif %}
+
+
+{% endblock %}

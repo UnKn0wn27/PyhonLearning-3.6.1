@@ -1,0 +1,11 @@
+start() -> left -> bear_room ;
+    start() -> right -> cthulhu_room() ;
+    start() -> "" -> dead()
+cthulhu_room() -> flee -> start() ;
+    cthulhu_room() -> head -> dead() ;
+    cthulu_room() -> "" -> cthulu_room()
+bear_room() -> take honey -> dead() ;
+    bear_room() -> taunt bear -> taunt bear -> dead() ;
+    bear_room() -> taunt bear -> open door -> gold_room() ;
+    bear_room() -> open door, "" -> bear_room()
+gold_room() -> nr > 50 -> dead() || nr < 50 -> exit(0) || nr != nr -> dead()

@@ -1,0 +1,10 @@
+Starting point
+Desert
+  - maze (using random for left and right)
+  - boss fight (boss fight with health, like in the previous game)
+Woods
+  - 3 quick time events for defeating enemies,
+  - boss fight(using randint and who has the higher number loses health)
+Mountains
+  - rescue 2 people (using set, using timer and bomb scenario for both)
+  - boss fight ()
